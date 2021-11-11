@@ -65,7 +65,9 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
     }
     // if no (false), ask question again by running fight() again
     else {
-     fight()
+      var fight = function(enemyName) {
+        // fight function statements
+      }
     }
   };}
 

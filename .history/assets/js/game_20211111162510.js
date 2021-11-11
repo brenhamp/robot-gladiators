@@ -7,6 +7,8 @@ var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+fight();
+
 for(var i = 0; i < enemyNames.length; i++) {
   console.log(enemyNames[i]);
   console.log(i);
@@ -65,12 +67,12 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
     }
     // if no (false), ask question again by running fight() again
     else {
-     fight()
+      var fight = function(enemyName) {
+        // fight function statements
+      }
     }
   };}
 
   for(var i = 0; i < enemyNames.length; i++) {
     fight(enemyNames[i]);
   }
-
-  fight();
